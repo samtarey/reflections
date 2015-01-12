@@ -1,0 +1,23 @@
+What happens when you initialize a repository? Why do you need to do it?
+	git init command creates an empty repository. It doesnt contain any commits. The newly created .git subfolder(under your project folder) contains all the necessary metadata for the newly created repository.
+	The basic building block of GIT version control system is repository. In order to do anything in git you have to have a git repository.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	staging area contains information about what will go into your next commit whereas a repository contains metadata about commits and object database. Working directory is where you checked out your local repository and git lets you choose which files from your working directory should go to staging area and then to repository.
+	Advantages - it gives you full control over which files you want to commit and when. Also facilitates the idea of committing logically related changes instead of committing all files at once.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
