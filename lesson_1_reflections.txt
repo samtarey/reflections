@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allowed me to see the changes I did to a newer file(which was the source of a bug) at one instance. Means I did not have to check and compare each line of code from two files one by one. it increased my efficciency.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It allows me to keep different versions of working modules so that when I want to revoke the current changes I made to the new version of a code file I could perform it.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Saving different versions of a content/code automatically is useful as users dont have to remember them saving every now and then. AT the same time this feature could end up creating a lot of versions of the content/code files which could be unnecessary as users would want to have different versions each having different logical chnages made.
+    Manually choosing when to create a commit allows user to keep serperate versions of files based on serperate logical changes. This approach may avoid cluttering of many versions as user chooses when to commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    As each file versions in a repository are linked with each other it is a great feature of GIT having multiple files saved in one commit. If there would have been seperate versions of all the files in one repository it would be greatly difficult to track a bug as each such different versions of each files would need to be compared against which would be time consuming, too.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log enlists all the commits made in a repository prior to a current commit. That also includes a unique commit ID, author, date and a message associated with each ID. The message gives brief information about the changes made to each commit. git log --stat command further helps us knowing additing inofrmation like which files were affected and how many changes were done. git diff uses these commit IDs and lets us find the number of additions and deletions made to a single of multiple files in a repository.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    A version control system saves each versions of code/content files as our work progresses and it also allows us to recall specific version for testing purpose later. It allows us to revert the changes made to current version back to previous one hence it is convenient and easier to test your new code or add new feature without having to worry if it might break the working features.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Review the history of project files.
+    Create repository to save my project files e.g. Project1 Mock up website
