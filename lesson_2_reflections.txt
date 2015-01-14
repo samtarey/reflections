@@ -10,6 +10,8 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	Staging area allows you to stage only portions of a modified file. This is to avoid - two or more logically unrelated changes contributing towards one commit just because you forgot to commit them one by one. This approach helps to review your changes better than reviewing all the chnages made to files at once.
+	After modifying a number of files, you may want to review only portions of changes made to a particular file. You can add those changes to staging area and then commit those changes to repository. You can always use git diff(to compare the changes between your working directory and staging area) and git diff --staged(to compare and check if I really want to commit the chnages I added to staging area). I also like to use git status to check if the changes made are added to staged area or to a repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
