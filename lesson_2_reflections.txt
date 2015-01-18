@@ -5,7 +5,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-	staging area contains information about what will go into your next commit whereas a repository contains metadata about commits and object database. Working directory is where you checked out your local repository and git lets you choose which files from your working directory should go to staging area and then to repository.
+	Staging area contains information about what will go into your next commit whereas a repository contains metadata about commits and object database. Working directory is where you checked out your local repository and git lets you choose which files from your working directory should go to staging area and then to repository.
 	Advantages - it gives you full control over which files you want to commit and when. Also facilitates the idea of committing logically related changes instead of committing all files at once.
 
 How can you use the staging area to make sure you have one commit per logical
@@ -24,7 +24,7 @@ organized? How would branches help?
 
 
 How do the diagrams help you visualize the branch structure?
-	diagrams gives me clarity of thought and gives me a visual of a repository in terms of number of commits and branches. It also gives me a clear picture of reachability.
+	Diagrams gives me clarity of thought and gives me a visual of a repository in terms of number of commits and branches. It also gives me a clear picture of reachability.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
@@ -37,7 +37,7 @@ the diagram the way we do?
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-	AUtomatic merging - saves time and convenient option as opposed to the manual merging provided there are a lot of changes to merge. It also is helpful if the person who is merging the feature changes into the master branch or vice-a-versa, doesnt know all the history of the two commits and what all changes were made to them. So in this case manual merging would be tedious and time consuming.
+	Automatic merging - saves time and convenient option as opposed to the manual merging provided there are a lot of changes to merge. It also is helpful if the person who is merging the feature changes into the master branch or vice-a-versa, doesnt know all the history of the two commits and what all changes were made to them. So in this case manual merging would be tedious and time consuming.
 	Automatic merge conflicts could be annoying to a developer at times when there are some obvious fixes to the merge conflicts.
 
 	Manual merging gives the power to the developer to make changes to the resultant merged file and need not have to guess why the merge conflicts occured as opposed to the automatic merging. It is also helpful when a developer/owner is fully aware of the features/changes that went into the two files that are going to be merged. Hence it is convenient to only touch those areas, make the required changes and add the changes to the resultant merged file.
