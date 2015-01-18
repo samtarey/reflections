@@ -29,8 +29,10 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 	Once you have finished working on a feature, it is important to add that feature to the main code. You can achieve that by "git merge" feature.
-	When there is a linear path between the current main branch and the target branch to be merged, all git does is combine the histories of the two branch tips and move the current branch tip up to the new target branch so that now all the commits prior to the current as well as new target branch are accessible.
-	If the branches have diverged, git uses 3 commits to generate the merge commit: 2 branch tips and their common ancestor.
+	When there is a linear path between the current main branch and the target branch to be merged, all git does is combine the histories of the two branch tips and move the current branch tip up to the new target branch so that now all the commits prior to the current as well as new target branch are accessible.If the branches have diverged, git uses 3 commits to generate the merge commit: 2 branch tips and their common ancestor.
+
+	After merging a new commit is created. That commit stores information about both its parent commits which were merged. This merged commit now becomes the new tip of the current master/main branch. After the merge, the master/main branch contains all the changes prior to the merge in master/main as well as the target branch and all the commits in both branches are now accessible by the resultant merged branch.
+
 	Again representing the same using a diagram tells us about reachability as well as the clear picture after merging two commits/branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
