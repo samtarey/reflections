@@ -15,8 +15,16 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Branching is helpful in saving the current state and having the ability to go back to the older state whenever we want or merge the new state with the old one once the new code path is stable and working. Branches would also be useful in keep your project files organized. You and your teammates can always work on different branches in order to build a new feature but the main code is always kept intact and free of bugs and working.
+
+	In following situations I would think that creating branches would be helpful:
+	- There might be times when a priority 1 bug surfaces and fix needs to be applied asap. I am expected to discontinue my current work of feature building and instead focus on the priority 1 task.
+	- While I am going to start working on a new feature OR a deadline to build and complete a feature is near, I would not want to break my main working code while I am working on a new feature and hence creating a branch for this new feature, testing it independently and then merging the new feature into main program is always advisable.
+	- when I am being asked to apply a quickfix as another developer who was working on the same is away for some reason and I am told to drop everything and fix a newly discovered bug.
+
 
 How do the diagrams help you visualize the branch structure?
+	diagrams gives me clarity of thought and gives me a visual of a repository in terms of number of commits and branches. It also gives me a clear picture of reachability.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
